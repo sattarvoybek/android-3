@@ -3,4 +3,6 @@
   <project name="android_build" path="build" remote="xnubia-project" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+
+  <project name="android_vendor_xnubia" path="vendor/xnubia" remote="xnubia-project" />
 </manifest>
