@@ -13,6 +13,10 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-7.1.2_r24" />
 
+  <remote  name="laos"
+           fetch="https://github.com/XNUBIA"
+           revision="refs/heads/xn" />
+
   <default revision="refs/heads/cm-14.1"
            remote="github"
            sync-c="true"
@@ -509,6 +513,11 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" remote="aosp" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
 
+  <!-- CM additions -->
   <include name="snippets/cm.xml" />
+
+  <!-- XNUBIA additions -->
+  <include name="manifests/xn.xml"/>
+
 
 </manifest>
