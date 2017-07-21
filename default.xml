@@ -13,7 +13,11 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-7.1.2_r24" />
 
+<<<<<<< HEAD
   <remote  name="xnuia"
+=======
+  <remote  name="laos"
+>>>>>>> c823020a1b71f26a6873bdcb58dbefc3a362d122
            fetch="https://github.com/XNUBIA"
            revision="refs/heads/xn" />
 
@@ -510,7 +514,15 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
 
   <!-- CM additions -->
+<<<<<<< HEAD
   <include name="manifests/cm.xml" />
+
+  <!-- XNUBIA additions -->
+  <include name="manifests/xn.xml"/>
+
+=======
+  <include name="snippets/cm.xml" />
+>>>>>>> c823020a1b71f26a6873bdcb58dbefc3a362d122
 
   <!-- XNUBIA additions -->
   <include name="manifests/xn.xml"/>
