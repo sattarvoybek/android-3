@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="platform/build" />
+
+  <project name="platform_build" path="build" remote="xn" >
+  <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+</manifest>

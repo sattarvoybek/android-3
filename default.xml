@@ -13,16 +13,16 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-7.1.2_r24" />
 
+  <remote  name="xnuia"
+           fetch="https://github.com/XNUBIA"
+           revision="refs/heads/xn" />
+
   <default revision="refs/heads/cm-14.1"
            remote="github"
            sync-c="true"
            sync-j="4" />
 
   <!-- AOSP Projects -->
-
-  <project path="build" name="LineageOS/android_build" groups="pdk">
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/kati" name="LineageOS/android_build_kati" groups="pdk,tradefed" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" remote="aosp" >
@@ -509,6 +509,11 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" remote="aosp" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
 
-  <include name="snippets/cm.xml" />
+  <!-- CM additions -->
+  <include name="manifests/cm.xml" />
+
+  <!-- XNUBIA additions -->
+  <include name="manifests/xn.xml"/>
+
 
 </manifest>
