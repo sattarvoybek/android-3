@@ -14,8 +14,8 @@
            revision="refs/tags/android-7.1.2_r24" />
 
 
-  <remote  name="xnubia"
-           fetch="https://github.com/XNUBIA"
+  <remote  name="xnubia-project"
+           fetch="https://github.com/XNUBIA-Project"
            revision="refs/heads/xn" />
 
   <default revision="refs/heads/cm-14.1"
