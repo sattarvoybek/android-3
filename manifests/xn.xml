@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="android_build" path="build" remote="xnubia-project" revision="test" >
+  <project name="android_build" path="build" remote="xnubia-project" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
