@@ -16,7 +16,7 @@
 
   <remote  name="xnubia-project"
            fetch="https://github.com/XNUBIA-Project"
-           revision="refs/heads/xn" />
+           revision="refs/heads/xnubia-7.1" />
 
   <default revision="refs/heads/cm-14.1"
            remote="github"
