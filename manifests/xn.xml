@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="platform_build" path="build" remote="xn" >
+  <project name="platform_build" path="build" remote="xnubia" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 </manifest>
